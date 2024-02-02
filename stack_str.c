@@ -25,9 +25,9 @@ void displayChar(stack_t **stack_node, unsigned int line_number)
  */
 void displayString(stack_t **stack_node, unsigned int line_number)
 {
-	(void)line_number;
 	int ascii_number;
 	stack_t *temp;
+    (void)line_number;
 
 	if (stack_node == NULL || *stack_node == NULL)
 	{
@@ -54,8 +54,8 @@ void displayString(stack_t **stack_node, unsigned int line_number)
  */
 void rotate(stack_t **stack_node, unsigned int line_number)
 {
-	(void)line_number
-		stack_t *temp;
+    stack_t *temp;
+	(void)line_number;
 
 	if (stack_node == NULL || *stack_node == NULL || (*stack_node)->next == NULL)
 		return;
@@ -78,8 +78,8 @@ void rotate(stack_t **stack_node, unsigned int line_number)
  */
 void rotateReverse(stack_t **stack_node, unsigned int line_number)
 {
-	(void)line_number
-		stack_t *temp;
+    stack_t *temp;
+    (void)line_number;
 
 	if (stack_node == NULL || *stack_node == NULL || (*stack_node)->next == NULL)
 		return;
